@@ -6,7 +6,7 @@ y = []
 label=[]
 connection = pg.connect(user="postgres", password="SDNA@2022", host="localhost", port="5432", database="Eagle2")
 curs = connection.cursor()
-curs.execute('SELECT areaid as "Area ID", areanome as "Area", COUNT(*) as "Qtde Incidentes" FROM dash_incidentes GROUP BY areaid, areanome')
+curs.execute('SELECT areaid as "AreaID", areanome as "Area", COUNT(*) as "QtdeIncidentes" FROM dash_incidentes GROUP BY areaid, areanome')
 
 columns = [col[0] for col in curs.description]
 results = []
