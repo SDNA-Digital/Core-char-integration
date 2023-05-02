@@ -1,0 +1,32 @@
+[
+    {
+        "Area ID": 5,
+        "Area": "Comercial                               ",
+        "Qtde Incidentes": 24
+    },
+    {
+        "Area ID": 4,
+        "Area": "RH                                      ",
+        "Qtde Incidentes": 5
+    },
+    {
+        "Area ID": 6,
+        "Area": "Administrativo                          ",
+        "Qtde Incidentes": 9
+    },
+    {
+        "Area ID": 2,
+        "Area": "Operacional                             ",
+        "Qtde Incidentes": 9
+    },
+    {
+        "Area ID": 1,
+        "Area": "Juridico                                ",
+        "Qtde Incidentes": 21
+    },
+    {
+        "Area ID": 3,
+        "Area": "Financeiro                              ",
+        "Qtde Incidentes": 24
+    }
+]
